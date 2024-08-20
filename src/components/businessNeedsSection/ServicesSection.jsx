@@ -27,15 +27,15 @@ const servicesData = [
 
 const ServicesSection = () => {
   return (
-    <section className="self-end mt-24 w-full max-w-[1487px] max-md:mt-10 max-md:mr-1 max-md:max-w-full">
-      <div className="flex gap-5 max-md:flex-col">
-        {servicesData.map((service, index) => (
-          <div key={index} className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-            <ServiceCard {...service} />
+      <section className="w-full py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {servicesData.map((service, index) => (
+                <ServiceCard key={index} {...service} />
+            ))}
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      </section>
   );
 };
 
