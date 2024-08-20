@@ -2,6 +2,9 @@ import React from 'react';
 import Logo from './Logo';
 import Navigation from './Navigation';
 import ContactButton from './ContactButton';
+// import Logo from './Logo';
+// import Navigation from './Navigation';
+// import ContactButton from './ContactButton';
 
 function Header() {
   return (
