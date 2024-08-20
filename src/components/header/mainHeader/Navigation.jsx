@@ -1,18 +1,19 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   const navItems = [
-    { label: 'Home', isActive: true },
-    { label: 'Services' },
-    { label: 'Industries & Expertise', hasDropdown: true },
-    { label: 'Case Studies' },
-    { label: 'Company', hasDropdown: true }
+    { label: 'Home',link:'/', isActive: true },
+    { label: 'Services',link:'/' },
+    { label: 'Industries & Expertise',link:'/', hasDropdown: true },
+    { label: 'Case Studies',link:'/' },
+    { label: 'Company',link:'/', hasDropdown: true }
   ];
 
   return (
-    <nav className="flex flex-wrap gap-10 my-auto text-base font-semibold text-zinc-800 max-md:max-w-full">
+    <nav className="flex justify-evenly items-center text-base font-semibold pt-5 text-zinc-800">
       {navItems.map((item, index) => (
-        <div key={index} className={`flex gap-1.5 ${item.isActive ? 'font-bold text-orange-500' : ''}`}>
+        <NavLink key={index} to={item.link} className={`flex gap-1.5 ${item.isActive ? 'font-bold text-orange-500' : ''}`}>
           <div className="grow">{item.label}</div>
           {item.hasDropdown && (
             <img 
@@ -22,7 +23,7 @@ function Navigation() {
               alt=""
             />
           )}
-        </div>
+        </NavLink>
       ))}
     </nav>
   );
