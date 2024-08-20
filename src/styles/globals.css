@@ -69,3 +69,6 @@
     background-color: #333; /* Active dot color */
 }
 
+.slick-list .slick-track {
+    height: 30rem !important;
+}
