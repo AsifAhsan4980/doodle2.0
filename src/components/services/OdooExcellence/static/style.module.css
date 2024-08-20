@@ -1,0 +1,68 @@
+.caveatFont{
+    font-family:"Caveat", cursive ;
+    color:#985184;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+}
+.caveatFont2{
+    font-family:"Caveat", cursive ;
+    color:#985184;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 38px;
+}
+.caveatFont3{
+    font-family:"Caveat", cursive ;
+    color:#F57F22;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.absolute_1{
+    position: absolute;
+    top: 30vh;
+    right: 15vw;
+}
+.absolute_2{
+    position: absolute;
+    bottom: 0%;
+    right: 13vw;
+}
+.absolute_3{
+    position: absolute;
+    bottom: 0%;
+    /* right: 13vw; */
+}
+.absolute4{
+    position: absolute;
+    top: 25vh;
+    left: 5vw;
+}
+
+.thin_box{
+    width: 9vw;
+    height: 1px;
+    background-color: gray;
+    opacity: .5;
+    margin-top: 25px;
+}
+
+.fat_box{
+    width: 9vw;
+    height: 3px;
+    background-color: gray;
+    opacity: .5;
+    margin-top: 25px;
+    margin-left: -30px;
+}
+
+.absolute_img{
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+    bottom: 0;
+    margin-top: -100px;
+}
