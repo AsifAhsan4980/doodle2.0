@@ -8,8 +8,8 @@ function TeamSection() {
   return (
     <div className="container">
       <div className=' mx-auto my-auto px-5 py-10 max-md:py-5'>
-        <div className=" w-full text-lg font-medium text-zinc-800">
-          <div className="flex justify-center leading-8">
+        <div className="  text-lg font-medium text-zinc-800">
+          <div className="flex justify-end leading-8">
             <div className='mr-5'>New Feature</div>
             <img 
               loading="lazy" 
@@ -18,7 +18,7 @@ function TeamSection() {
               // className="object-contain aspect-[1.93] w-[29px] mx-auto md:mx-0" 
             />
           </div>
-          <div className="mt-48 flex justify-center gap-4 leading-6 max-md:mt-10">
+          <div className="mt-48 flex justify-end gap-4 leading-6 max-md:mt-10">
             <div className='mr-5 '>
               New Feature <br /> Stories Tasks
             </div>
@@ -31,7 +31,7 @@ function TeamSection() {
           </div>
         </div>
         </div>
-      <div className={`${style.absolute_project} ${style.caveatFont}`}>
+      <div className={`${style.absolute_3} ${style.caveatFont}`}>
        <Image className='ml-28 mb-[-35px]' src={arrowbottom}/>
         Project <br /> Team Follow
         

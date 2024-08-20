@@ -6,6 +6,7 @@ import ProcessStep from './ProcessStep';
 import arrowLeft from "@/../public/Static/Image/arrowLeft.png"
 import Image from 'next/image';
 import arrowbottom from "@/../public/Static/Image/arrowBottom.png"
+import dotShape from "@/../public/Static/Image/dot-shape.png"
 
 
 const processSteps = [
@@ -41,8 +42,8 @@ const processSteps = [
 
 function ProcessSection() {
   return (
-    <section className="flex flex-col">
-      <div className="relative pt-28 pr-20 pb-7 w-full bg-gray-100 max-md:pt-24 max-md:pr-5 max-md:max-w-full">
+    <section className=" overflow-x-scroll font-poppins flex flex-col">
+      <div className="min-w-[1440px] relative pt-28 pr-20 pb-7 w-full bg-gray-100 max-md:pt-24 max-md:pr-5 max-md:max-w-full">
         <div className="py-20 flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-[79%] max-md:ml-0 max-md:w-full">
             <div className=" flex flex-col w-full max-md:mt-10 max-md:max-w-full">
@@ -76,7 +77,7 @@ function ProcessSection() {
           </div> */}
           <ValueValidation />
           
-      <img className={style.absolute_img} loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b13a46e4ddabdb73bbacb01047c483f94b0d2ffd4dccd4d9297686a2fba38e85?placeholderIfAbsent=true&apiKey=8390c896bcb7435f9438ea31eaafd63c" alt="" className="object-contain shrink-0 self-end mt-96 aspect-[0.57] w-[94px] max-md:mt-10" />
+      <img className={style.absolute_img} loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b13a46e4ddabdb73bbacb01047c483f94b0d2ffd4dccd4d9297686a2fba38e85?placeholderIfAbsent=true&apiKey=8390c896bcb7435f9438ea31eaafd63c" alt="" className="object-contain shrink-0 mt-[-50px] self-end aspect-[0.57] w-[94px] " />
       </div>
 
     </section>

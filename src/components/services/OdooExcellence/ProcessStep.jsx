@@ -7,16 +7,16 @@ import style from "./static/style.module.css"
 function ProcessStep({ number, title, description, steps, bgColor }) {
   return (
     <div className="flex flex-col items-start text-base leading-9 text-zinc-800">
-      <div className="self-stretch">
+      <div className="font-semibold self-stretch">
         {title} <br />
-        <span className="text-sm leading-7">{description}</span>
+        <span className="text-sm leading-7 font-normal">{description}</span>
       </div>
       <div className='flex items-center'>
-        <div className={`px-1 mt-7 w-10 h-10 text-3xl font-bold leading-none text-white whitespace-nowrap ${bgColor}`}>
+        <div className={`z-10 px-0 pt-1 mt-7 w-10 h-10 text-3xl font-bold leading-none text-white whitespace-nowrap ${bgColor}`}>
           {number}
         </div>
         <div className={style.thin_box}></div>
-        {number===2?<div className={style.fat_box}></div>:''}
+        {number==='02'?<div className={style.fat_box}></div>:''}
       </div>
       {/* <hr></hr> */}
       <div className="mt-7 font-medium">
