@@ -37,6 +37,9 @@ function TestimonialCarousel() {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 1,
+		centerPadding: "150px",
+		adaptiveHeight: true,
+		autoplay: true,
 		appendDots: dots => <ul>{dots}</ul>,
 		customPaging: i => (
 			<div className="h-1 bg-gray-300 mx-2 rounded-md" /> // Custom dot as a flat line
@@ -55,7 +58,7 @@ function TestimonialCarousel() {
 	};
 
 	return (
-		<div className="self-stretch mt-24 max-md:mt-10 max-md:max-w-full">
+		<div className="self-stretch mt-24 max-md:mt-10 max-md:max-w-full p-2">
 			<Slider {...settings}>
 				{testimonials.map((testimonial, index) => (
 					<TestimonialCard key={index} {...testimonial} />
