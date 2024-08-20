@@ -10,7 +10,7 @@ function Navigation() {
   ];
 
   return (
-    <nav className="flex flex-wrap gap-10 my-auto text-base font-semibold text-zinc-800 max-md:max-w-full">
+    <nav className="flex justify-evenly items-center text-base font-semibold pt-5 text-zinc-800">
       {navItems.map((item, index) => (
         <div key={index} className={`flex gap-1.5 ${item.isActive ? 'font-bold text-orange-500' : ''}`}>
           <div className="grow">{item.label}</div>
