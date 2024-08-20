@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-// import { NavLink } from 'react-router-dom';
-import Link from "next/link"
-import DownArrow from '@/components/Icon/DownArrow';
+import React from 'react';
+
+import Link from "next/link";
+
 
 function Navigation() {
   const navItems = [
