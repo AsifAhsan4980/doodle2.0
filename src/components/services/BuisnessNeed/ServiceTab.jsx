@@ -6,7 +6,7 @@ function ServiceTab({ label, isActive }) {
   const inactiveClasses = "bg-zinc-600 bg-opacity-10";
 
   return (
-    <button className={`${baseClasses} ${isActive ? activeClasses : inactiveClasses}`}>
+    <button className={`${baseClasses} ${isActive ? activeClasses : inactiveClasses}  bg-gray-100`}>
       {label}
     </button>
   );
