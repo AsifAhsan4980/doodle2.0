@@ -1,11 +1,12 @@
 import React from 'react';
+
 import Link from "next/link";
 
 
 function Navigation() {
   const navItems = [
     { label: 'Home',link:'/', isActive: true },
-    { label: 'Services',link:'/' },
+    { label: 'Services',link:'/services' },
     { label: 'Industries & Expertise',link:'/', hasDropdown: true },
     { label: 'Case Studies',link:'/' },
     { label: 'Company',link:'/', hasDropdown: true }
