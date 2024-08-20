@@ -1,6 +1,7 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
-import Link from "next/link"
+
+import Link from "next/link";
+
 
 function Navigation() {
   const navItems = [
