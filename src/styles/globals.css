@@ -11,6 +11,7 @@
     background-size: cover;
     background-position: center;
 }
+
 .slick-dots {
     display: flex !important;
     justify-content: center;
