@@ -39,7 +39,7 @@ function ServicesSection() {
 
 				<div className="flex gap-5 justify-center mt-16 md:mt-10">
 					<div
-						className="flex justify-center md:grid-cols-4 gap-5 text-base font-semibold text-center text-zinc-800">
+						className="flex flex-wrap lg:flex-nowrap lg:max-w-[1100px] justify-center md:grid-cols-4 gap-5 text-base font-semibold text-center text-zinc-800">
 						{serviceTabs.map((tab, index) => (
 							<ServiceTab key={index} label={tab.label} isActive={tab.isActive}/>
 						))}
