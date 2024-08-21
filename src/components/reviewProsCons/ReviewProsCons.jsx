@@ -3,8 +3,11 @@ import ImageComponent from './ImageComponent';
 
 function ReviewProsCons() {
   return (
-    <main>
-      <ImageComponent />
+    <main className={"flex justify-center"}>
+        <div className={"w-3/5"}>
+            <ImageComponent />
+        </div>
+
     </main>
   );
 }
