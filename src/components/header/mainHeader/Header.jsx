@@ -8,15 +8,15 @@ import ContactButton from './ContactButton';
 
 function Header() {
   return (
-    <header className='absolute top-0 lg:top-10 sticky bg-white z-50'>
+    <header className='top-0 lg:top-16 sticky bg-white z-50'>
       <div className='grid grid-cols-12 px-5 md:px-10 lg:px-16 xl:px-28 2xl:px-36 py-3.5'>
         <div className='grid col-span-6 lg:col-span-3'>
           <Logo />
         </div>
-        <div className='grid col-span-6 lg:col-span-6 hidden lg:block'>
+        <div className='col-span-6 lg:col-span-7 hidden lg:block'>
           <Navigation />
         </div>
-        <div className='grid col-span-6 lg:col-span-3'>
+        <div className='grid col-span-6 lg:col-span-2'>
           <ContactButton />
         </div>
       </div>
