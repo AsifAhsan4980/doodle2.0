@@ -3,7 +3,7 @@ import React from 'react';
 const Newsletter = () => {
   return (
     <section >
-      <div className="grid grid-cols-1 lg:grid-cols-2 py-5 border-b-[1px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 py-4 border-b-[1px]">
         <div className='flex justify-start items-center'>
           <div className='pb-2'>
             <h1 className='font-bold'>Join our newsletter</h1>

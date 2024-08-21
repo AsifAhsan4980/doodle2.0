@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import DownArrow from '@/components/Icon/DownArrow';
 import Link from "next/link";
 
@@ -15,14 +15,16 @@ function Navigation() {
 
 
   return (
-    <nav className="flex justify-evenly items-center text-base font-semibold pt-5 text-zinc-800">
-      {navItems.map((item, index) => (
-        <Link key={index} href={item.link} className={`flex justify-start items-center gap-1 ${item.isActive ? 'font-bold text-orange-500' : ''}`}>{item.label}
-          {item.hasDropdown && (
-            <DownArrow onClick={() => {setArrowMoodChange(!arrowMoodChange); }} className={`transform transition-transform duration-300 ease-in-out ${arrowMoodChange ? 'rotate-180' : ''}`} />
-          )}
-        </Link>
-      ))}
+    <nav className="">
+      <div className='flex justify-start gap-8 mx-auto items-center text-base font-semibold pt-5 text-zinc-800'>
+        {navItems.map((item, index) => (
+          <Link key={index} href={item.link} className={`flex justify-start test-xs lg:text-sm items-center gap-1 ${item.isActive ? 'font-bold text-orange-500' : ''}`}>{item.label}
+            {item.hasDropdown && (
+              <DownArrow onClick={() => { setArrowMoodChange(!arrowMoodChange); }} className={`transform transition-transform duration-300 ease-in-out ${arrowMoodChange ? 'rotate-180' : ''}`} />
+            )}
+          </Link>
+        ))}
+      </div>
     </nav>
   );
 }
