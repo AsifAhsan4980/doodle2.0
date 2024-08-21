@@ -21,10 +21,9 @@ function Logo() {
         </div>
       </div>
 
-
       <div className='pl-3 hidden lg:block'>
-        <p className="mt-2 text-[10px] font-semibold leading-3  text-black"> An ISO 9001:20215 & 27001:2022 </p>
-        <p className="pt-[2px] text-[10px] font-semibold leading-3  text-black">Certified Organization.</p>
+        <p className="mt-2 text-[9px] font-semibold leading-3  text-black">An ISO 9001:20215 & 27001:2022</p>
+        <p className="text-[9px] pl-3 font-semibold leading-3 text-black">Certified Organization</p>
       </div>
     </div>
   );
