@@ -13,8 +13,9 @@ const FooterMiddle = () => {
                 <Logo />
                 <h1 className='pt-6 text-[12px] font-semibold leading-6'>Communities are increasingly recognizing the need for collective action. Local initiatives, such as tree-planting drives, community gardens, and renewable energy projects, are helping to reduce carbon footprints and build resilience to climate impacts.</h1>
             </div>
+             
             <div className='col-span-12 md:col-span-6 lg:col-span-5'>
-            <div className='flex justify-between py-5 px-0 lg:px-2'>
+            <div className='grid grid-cols-2 py-5 px-0 lg:px-2'>
                 <div className='px-0 lg:px-3'>
                     <h1 className='font-bold text-sm'>Industries & Expertise</h1>
                     <div className='pt-3'>

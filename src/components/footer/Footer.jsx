@@ -17,7 +17,7 @@ const Footer = () => {
         <Newsletter/>
         <FooterMiddle/>
         <FooterBottom/>  
-        <WhatsAppIcon size={40} className='absolute bottom-16 right-0'/>
+        <WhatsAppIcon size={40} className='absolute bottom-10 lg:bottom-16 right-0'/>
         </div>
       </div>
     </footer>
