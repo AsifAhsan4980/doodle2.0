@@ -4,7 +4,7 @@ import ServicesSection from './ServicesSection';
 
 const BusinessNeeds = () => {
   return (
-    <main className="flex flex-col">
+    <main className=" flex flex-col mt-10">
       <ServicesHeader />
       <ServicesSection />
     </main>

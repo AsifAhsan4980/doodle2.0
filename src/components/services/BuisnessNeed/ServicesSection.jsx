@@ -30,7 +30,7 @@ function ServicesSection() {
 					</div>
 					<div className="mt-14 text-lg leading-10 text-black md:mt-0">
 						Discover our tailored services crafted to elevate and streamline your business operations. From
-						innovative solutions to expert support, we're here to transform your challenges into
+						innovative solutions to expert support, we&apos;re here to transform your challenges into
 						opportunities for growth. Explore our comprehensive range of services designed to meet your
 						unique needs and drive success. Let us help you optimize your operations and achieve your
 						business goals.

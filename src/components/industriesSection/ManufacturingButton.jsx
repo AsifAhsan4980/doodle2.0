@@ -2,7 +2,7 @@ import React from 'react';
 
 function ManufacturingButton() {
   return (
-    <div className='flex gap-3'>
+    <div className='flex gap-3 justify-center flex-wrap lg:flex-nowrap '>
     <button className="gap-2.5 self-stretch px-12 py-6 text-base font-semibold text-center text-white whitespace-nowrap bg-orange-500 rounded-xl">
       <span className='text-white'>Manufacturing</span>
     </button>
