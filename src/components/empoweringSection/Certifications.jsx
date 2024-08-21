@@ -20,7 +20,7 @@ function Certifications() {
         </div>
         <div className="flex gap-5 mt-5 text-sm text-zinc-800">
           <div className="flex flex-col">
-            <p className="self-start font-semibold">ISO 9001:2015</p>
+            <p className="self-start font-semibold">ISO 9009:2015</p>
             <p className="font-medium">
               Quality Management <br /> Certified
             </p>
