@@ -26,17 +26,20 @@ const features = [
 
 function FeatureSection() {
   return (
-    <section className="flex gap-5 max-md:flex-col">
-      {features.map((feature, index) => (
-        <div key={index} className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <FeatureCard
-            imageSrc={feature.imageSrc}
-            title={feature.title}
-            description={feature.description}
-          />
+      <section className="py-10 w-full bg-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {features.map((feature, index) => (
+                <FeatureCard
+                    key={index}
+                    imageSrc={feature.imageSrc}
+                    title={feature.title}
+                    description={feature.description}
+                />
+            ))}
+          </div>
         </div>
-      ))}
-    </section>
+      </section>
   );
 }
 
